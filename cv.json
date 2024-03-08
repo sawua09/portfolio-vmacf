@@ -1,18 +1,18 @@
 {
     "basics": {
-        "name": "Contreras Figueroa Victor",
-        "label": "Desarrollador web con nose asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf ",
+        "name": "Contreras Figueroa Victor Miguel Antonio",
+        "label": "Desarrollador web",
         "image": "https://static.vecteezy.com/system/resources/thumbnails/003/428/270/small/businessman-explain-pose-character-design-free-vector.jpg",
         "email": "victormcontr@gmail.com",
         "phone": "2282143239",
-        "url": "https://johndoe.com",
-        "summary": "A summary of John Doe…",
+        "url": "",
+        "summary": "Licenciado en Tecnologías Computacionales con maestría en Sistemas Interactivos Centrados en el Usuario. Experiencia en desarrollo de sitios web escalables y servicios back-end. Busco desarrollarme profesionalmente en el área defront y back-end construyendosistemas web robustos y estables tomando en cuenta las características del usuario final.",
         "location": {
-            "address": "2712 Broadway St",
-            "postalCode": "CA 94115",
-            "city": "San Francisco",
-            "countryCode": "US",
-            "region": "California"
+            "address": "Calle Lázaro Cárdenas",
+            "postalCode": "91056",
+            "city": "Xalapa",
+            "countryCode": "MX",
+            "region": "Veracruz"
         },
         "profiles": [{
                 "network": "X",
@@ -32,16 +32,70 @@
         ]
     },
     "work": [{
-        "name": "Company",
-        "position": "President",
-        "url": "https://company.com",
-        "startDate": "2013-01-01",
-        "endDate": "2014-01-01",
-        "summary": "Description…",
-        "highlights": [
-            "Started the company"
-        ]
-    }],
+            "name": "Geotecnia y supervisión técnica",
+            "position": "Programador Jr.",
+            "url": "https://erp.geotest.com.mx/public/login/",
+            "startDate": "2022-11-07",
+            "endDate": "2024-02-16",
+            "summary": "Desarrollo de un Enterprise Resource Planning (ERP), análisis de necesidades con clientes y manejo de documentos XML para el registro y manipulación de facturas electrónicas CFDI versión 3.3 y 4",
+            "highlights": [
+                "CFDI 3.3 y 4",
+                "Soporte a usuarios",
+                "PHP",
+                "Javascript",
+                "Zend framework 2",
+                "JQuery",
+                "JQWidgets",
+                "Git",
+                "POO",
+                "Api SOAP y REST",
+                "MySQL"
+            ]
+        },
+        {
+            "name": "Instituto Consorcio Clavijero",
+            "position": "Desarrollador y diseñador web Jr",
+            "url": "https://erp.geotest.com.mx/public/login/",
+            "startDate": "2022-04-01",
+            "endDate": "2022-08-01",
+            "summary": "Implementación de un dashboard gerencial basado en propuestas de diseño en prototipos y análisis de usabilidad",
+            "highlights": [
+                "Javascript",
+                "Vue 2",
+                "Vuetify",
+                "Git",
+                "Api REST"
+            ]
+        },
+        {
+            "name": "Universidad Veracruzana (EXAVER)",
+            "position": "Diseñador de interfaz de usuario - proyecto",
+            "url": "https://erp.geotest.com.mx/public/login/",
+            "startDate": "2020-04-01",
+            "endDate": "2021-08-01",
+            "summary": "Desarrollo de propuestas de mejora basados en estudio de usabilidad para la interfaz de resultados del sistema de exámenes en línea. Desarrollo de documentación técnica.",
+            "highlights": [
+                "HTML5",
+                "CSS",
+                "Adobe XD"
+            ]
+        },
+        {
+            "name": "Instituto Mexicano del Seguro Social",
+            "position": "Desarrollador web - servicio social",
+            "url": "https://erp.geotest.com.mx/public/login/",
+            "startDate": "2019-04-01",
+            "endDate": "2020-08-01",
+            "summary": "Desarrollo de sistema web enfocado al control de documentación y procesos de oficina partiendo de análisis de necesidades.",
+            "highlights": [
+                "PHP",
+                "Laravel 6",
+                "Apache",
+                "Javascript",
+                "MySQL"
+            ]
+        }
+    ],
     "volunteer": [{
         "organization": "Organization",
         "position": "Volunteer",
@@ -54,12 +108,12 @@
         ]
     }],
     "education": [{
-        "institution": "Universidad veracruzana",
-        "url": "https://institution.com/",
-        "area": "Software Development",
-        "studyType": "Licenciatura en tecnologías computacionales",
-        "startDate": "2016-01-01",
-        "endDate": "2020-01-01",
+        "institution": "Universidad Veracruzana",
+        "url": "https://www.uv.mx/msicu/",
+        "area": "Desarrollo UX",
+        "studyType": "Maestría en Sistemas Interactivos Centrados enel Usuario",
+        "startDate": "2020-01-01",
+        "endDate": "2022-01-01",
         "score": "4.0",
         "courses": [
             "DB1101 - Basic SQL"
