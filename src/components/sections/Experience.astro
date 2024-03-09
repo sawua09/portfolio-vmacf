@@ -1,32 +1,58 @@
 ---
 import Section from "../Section.astro";
 
-import { work } from "@cv"; 
+import { work } from "@cv";
 ---
 
 <Section title="Experiencia">
     <ul>
-       {work.map(({ name, startDate, endDate, position, summary, highlights}) => {
-        const startYear = new Date(startDate).getFullYear();
-        const endYear = endDate != null ? new Date(endDate).getFullYear() : "Actual";
-        const years = `${startYear} - ${endYear}`
-        return(
-            <li>
-                <article>
-                    <header>
-                        <div>
-                            <h4>{position}</h4>
-                            <h3>{name}</h3>
-                        </div>
-                        <time>{years}</time>
-                    </header>
-                    <footer>
-                        <p>{summary}</p>
-                    </footer>
-                </article>
-            </li>
-        );
-       })} 
+        {
+            work.map(
+                ({
+                    name,
+                    startDate,
+                    endDate,
+                    position,
+                    summary,
+                    highlights,
+                }) => {
+                    const startYear = new Date(startDate).getFullYear();
+                    const endYear =
+                        endDate != null
+                            ? new Date(endDate).getFullYear()
+                            : "Actual";
+                    const startMonth = new Date(startDate).toLocaleDateString(
+                        "es",
+                        {
+                            month: "long",
+                        },
+                    );
+                    const endMonth = new Date(endDate).toLocaleDateString(
+                        "es",
+                        {
+                            month: "long",
+                        },
+                    );
+                    const years = `${startMonth} ${startYear} - ${endMonth} ${endYear}`;
+                    return (
+                        <li>
+                            <article>
+                                <header>
+                                    <div>
+                                        <h4>{position}</h4>
+                                        <h3>{name}</h3>
+                                    </div>
+                                    <time>{years}</time>
+                                </header>
+                                <footer>
+                                    <p>{summary}</p>
+                                </footer>
+                            </article>
+                        </li>
+                    );
+                },
+            )
+        }
     </ul>
 </Section>
 
@@ -37,15 +63,15 @@ import { work } from "@cv";
         gap: 32px;
     }
 
-    article h3{
+    article h3 {
         font-weight: 500;
         color: #111;
     }
-    article h4{
+    article h4 {
         font-weight: 400;
         color: #222;
     }
-    header{
+    header {
         display: flex;
         justify-content: space-between;
         align-items: flex-start;

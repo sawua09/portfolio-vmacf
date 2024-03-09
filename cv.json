@@ -2,7 +2,7 @@
     "basics": {
         "name": "Contreras Figueroa Victor Miguel Antonio",
         "label": "Desarrollador web",
-        "image": "https://static.vecteezy.com/system/resources/thumbnails/003/428/270/small/businessman-explain-pose-character-design-free-vector.jpg",
+        "image": "./src/img/profile.png",
         "email": "victormcontr@gmail.com",
         "phone": "2282143239",
         "url": "",
@@ -14,7 +14,8 @@
             "countryCode": "MX",
             "region": "Veracruz"
         },
-        "profiles": [{
+        "profiles": [
+            {
                 "network": "X",
                 "username": "sawua09",
                 "url": "https://twitter.com/sawua09"
@@ -31,7 +32,8 @@
             }
         ]
     },
-    "work": [{
+    "work": [
+        {
             "name": "Geotecnia y supervisión técnica",
             "position": "Programador Jr.",
             "url": "https://erp.geotest.com.mx/public/login/",
@@ -96,104 +98,165 @@
             ]
         }
     ],
-    "volunteer": [{
-        "organization": "Organization",
-        "position": "Volunteer",
-        "url": "https://organization.com/",
-        "startDate": "2012-01-01",
-        "endDate": "2013-01-01",
-        "summary": "Description…",
-        "highlights": [
-            "Awarded 'Volunteer of the Month'"
-        ]
-    }],
-    "education": [{
-        "institution": "Universidad Veracruzana",
-        "url": "https://www.uv.mx/msicu/",
-        "area": "Desarrollo UX",
-        "studyType": "Maestría en Sistemas Interactivos Centrados enel Usuario",
-        "startDate": "2020-01-01",
-        "endDate": "2022-01-01",
-        "score": "4.0",
-        "courses": [
-            "DB1101 - Basic SQL"
-        ]
-    }, {
-        "institution": "Universidad veracruzana",
-        "url": "https://institution.com/",
-        "area": "Software Development",
-        "studyType": "Maestría en Sistemas Interactivos Centrados en el Usuario",
-        "startDate": "2021-01-01",
-        "endDate": "2023-01-01",
-        "score": "4.0",
-        "courses": [
-            "DB1101 - Basic SQL"
-        ]
-    }],
-    "awards": [{
-        "title": "Award",
-        "date": "2014-11-01",
-        "awarder": "Company",
-        "summary": "There is no spoon."
-    }],
-    "certificates": [{
-        "name": "Certificate",
-        "date": "2021-11-07",
-        "issuer": "Company",
-        "url": "https://certificate.com"
-    }],
-    "publications": [{
-        "name": "Publication",
-        "publisher": "Company",
-        "releaseDate": "2014-10-01",
-        "url": "https://publication.com",
-        "summary": "Description…"
-    }],
-    "skills": [{
-        "name": "Web Development",
-        "level": "Master",
-        "keywords": [
-            "HTML",
-            "CSS",
-            "JavaScript"
-        ]
-    }],
-    "languages": [{
-        "language": "English",
-        "fluency": "Native speaker"
-    }],
-    "interests": [{
-        "name": "Wildlife",
-        "keywords": [
-            "Ferrets",
-            "Unicorns"
-        ]
-    }],
-    "references": [{
-        "name": "Jane Doe",
-        "reference": "Reference…"
-    }],
-    "projects": [{
-            "name": "Project",
-            "startDate": "2019-01-01",
-            "endDate": "2021-01-01",
-            "description": "Description...",
-            "isActive": true,
+    "volunteer": [
+        {
+            "organization": "Organization",
+            "position": "Volunteer",
+            "url": "https://organization.com/",
+            "startDate": "2012-01-01",
+            "endDate": "2013-01-01",
+            "summary": "Description…",
             "highlights": [
-                "Won award at AIHacks 2016"
-            ],
-            "url": "https://project.com/"
+                "Awarded 'Volunteer of the Month'"
+            ]
+        }
+    ],
+    "education": [
+        {
+            "institution": "Universidad Veracruzana",
+            "url": "https://www.uv.mx/msicu/",
+            "area": "Desarrollo UX",
+            "studyType": "Maestría en Sistemas Interactivos Centrados en el Usuario",
+            "startDate": "2020-06-01",
+            "endDate": "2022-06-01",
+            "score": "4.0",
+            "courses": [
+                "UX",
+                "Usabilidad",
+                "Seguridad",
+                "DCU",
+                "Accesibilidad"
+            ]
         },
         {
-            "name": "Project 2",
+            "institution": "Universidad veracruzana",
+            "url": "https://institution.com/",
+            "area": "Programación",
+            "studyType": "Licenciatura en Tecnologías Computacionales",
+            "startDate": "2016-06-01",
+            "endDate": "2020-06-01",
+            "score": "4.0",
+            "courses": [
+                "Desarrollo web",
+                "Servidores",
+                "Desarrollo movil",
+                "Bases de datos",
+                "Estructuras de datos",
+                "Seguridad"
+            ]
+        }
+    ],
+    "awards": [
+        {
+            "title": "Award",
+            "date": "2014-11-01",
+            "awarder": "Company",
+            "summary": "There is no spoon."
+        }
+    ],
+    "certificates": [
+        {
+            "name": "Certificate",
+            "date": "2021-11-07",
+            "issuer": "Company",
+            "url": "https://certificate.com"
+        }
+    ],
+    "publications": [
+        {
+            "name": "Publication",
+            "publisher": "Company",
+            "releaseDate": "2014-10-01",
+            "url": "https://publication.com",
+            "summary": "Description…"
+        }
+    ],
+    "skills": [
+        {
+            "name": "PHP"
+        },
+        {
+            "name": "JavaScript"
+        },
+        {
+            "name": "API SOAP y REST"
+        },
+        {
+            "name": "HTML5"
+        },
+        {
+            "name": "CSS"
+        },
+        {
+            "name": "JavaScript"
+        },
+        {
+            "name": "MySQL"
+        },
+        {
+            "name": "Firebase"
+        },
+        {
+            "name": "Vue 2 y 3"
+        },
+        {
+            "name": "Laravel"
+        },
+        {
+            "name": "Bootstrap"
+        },
+        {
+            "name": "Adobe XD"
+        },
+        {
+            "name": "Whimsical"
+        },
+        {
+            "name": "Visual Code"
+        },
+        {
+            "name": "Git"
+        },
+        {
+            "name": "Notion"
+        }
+    ],
+    "languages": [
+        {
+            "language": "Inglés",
+            "fluency": "",
+            "level": "B1",
+            "test": "TOEFL ITP",
+            "score": "527"
+        }
+    ],
+    "interests": [
+        {
+            "name": "Wildlife",
+            "keywords": [
+                "Ferrets",
+                "Unicorns"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "name": "Jane Doe",
+            "reference": "Reference…"
+        }
+    ],
+    "projects": [
+        {
+            "name": "Criptomonedas",
             "startDate": "2019-01-01",
             "endDate": "2021-01-01",
-            "description": "Description...",
+            "description": "Lista de criptomonedas con precios actualizados. Conversión de dividas",
             "isActive": true,
             "highlights": [
-                "Won award at AIHacks 2016"
+                "Vue 2",
+                "Coincap API"
             ],
-            "url": "https://project.com/"
+            "url": "https://cryptoexchangesaw.netlify.app/"
         }
     ]
 }
