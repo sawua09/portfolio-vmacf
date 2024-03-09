@@ -11,13 +11,11 @@ import { languages } from "@cv";
                     <li>
                         <article>
                             <header>
-                                <div>
-                                    <h3>{language}</h3>
-                                    <h4>{test}</h4>
-                                    <h2>
-                                        {level} : {score}
-                                    </h2>
-                                </div>
+                                <h3>{language}</h3>
+                                <p>
+                                    {test} {score}
+                                </p>
+                                <p>{level}</p>
                             </header>
                         </article>
                     </li>
@@ -29,28 +27,51 @@ import { languages } from "@cv";
 
 <style>
     ul {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 1rem;
+    }
+    article {
+        border-radius: 8px;
+        border: 1px solid #f2f2f2;
+        gap: 16px;
         display: flex;
         flex-direction: column;
-        gap: 32px;
+        padding: 16px;
+        height: 100%;
     }
-
+    article header {
+        flex: 1;
+    }
     article h3 {
-        font-weight: 500;
+        margin-bottom: 4px;
+    }
+    article a {
         color: #111;
     }
-    article h4 {
-        font-weight: 400;
-        color: #222;
+    article a:hover {
+        text-decoration: underline;
     }
-    article h2 {
-        font-weight: 400;
-        color: #222;
-        font-size: 1rem;
-    }
-    header {
-        display: flex;
-        justify-content: space-between;
-        align-items: flex-start;
+    article p {
+        font-size: 0.75;
+        line-height: 1.2rem;
         margin-bottom: 4px;
+    }
+    article h3 span {
+        color: rgb(100, 14, 119);
+    }
+    article footer {
+        display: inline-flex;
+        flex-wrap: wrap;
+        gap: 4px;
+        font-size: 0.6rem;
+    }
+    footer span {
+        border-radius: 6px;
+        background: #eee;
+        color: #444;
+        font-size: 0.6rem;
+        font-weight: 500;
+        padding: 0.2rem 0.6rem;
     }
 </style>
