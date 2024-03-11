@@ -21,3 +21,6 @@ Este portafolio fué creado con el framework web Astro y muestra la información
 
 Está basado en el diseño de github.com/BartoszJarocki/cv y con el código de
 midulive
+
+## Librerias
+1.- Ninja-keys

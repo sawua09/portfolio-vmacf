@@ -2,11 +2,11 @@
     "basics": {
         "name": "Contreras Figueroa Victor Miguel Antonio",
         "label": "Desarrollador web",
-        "image": "./src/img/profile.png",
+        "image": "/profile.png",
         "email": "victormcontr@gmail.com",
         "phone": "2282143239",
         "url": "",
-        "summary": "Licenciado en Tecnologías Computacionales con maestría en Sistemas Interactivos Centrados en el Usuario. Experiencia en desarrollo de sitios web escalables y servicios back-end. Busco desarrollarme profesionalmente en el área defront y back-end construyendosistemas web robustos y estables tomando en cuenta las características del usuario final.",
+        "summary": "Licenciado en Tecnologías Computacionales con maestría en Sistemas Interactivos Centrados en el Usuario. Experiencia en desarrollo de sitios web escalables y servicios back-end. Busco desarrollarme profesionalmente en el área de front y back-end construyendo sistemas web robustos y estables tomando en cuenta las características del usuario final.",
         "location": {
             "address": "Calle Lázaro Cárdenas",
             "postalCode": "91056",
