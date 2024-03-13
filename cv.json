@@ -265,6 +265,20 @@
             ],
             "url": "https://cryptoexchangesaw.netlify.app/",
             "github": "https://github.com/sawua09/CryptoExchange"
+        },
+        {
+            "name": "Mapas",
+            "startDate": "",
+            "endDate": "",
+            "description": "Página web de mapas para buscar lugares en el mundo. Implementa buscador y rutas para llegar a los destinos.",
+            "isActive": true,
+            "highlights": [
+                "Vue 3",
+                "Typescript",
+                "Mapbox API"
+            ],
+            "url": "https://saw-maps-app.netlify.app/#/",
+            "github": "https://github.com/sawua09/maps-app-vue/tree/main"
         }
     ]
 }
