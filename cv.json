@@ -257,13 +257,14 @@
             "name": "Criptomonedas",
             "startDate": "2019-01-01",
             "endDate": "2021-01-01",
-            "description": "Lista de criptomonedas con precios actualizados. Conversión de dividas",
+            "description": "Lista de criptomonedas con precios actualizados. Calculadora de conversión y gráficas actualizadas de precios.",
             "isActive": true,
             "highlights": [
                 "Vue 2",
                 "Coincap API"
             ],
-            "url": "https://cryptoexchangesaw.netlify.app/"
+            "url": "https://cryptoexchangesaw.netlify.app/",
+            "github": "https://github.com/sawua09/CryptoExchange"
         }
     ]
 }

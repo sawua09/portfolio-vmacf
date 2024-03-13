@@ -14,10 +14,10 @@ const SOCIAL_ICONS: Record<string, any> = {
     LinkedIn,
     X,
 };
-const linkedinInfo = profiles.find(({network}) => network == "LinkedIn");
+const linkedinInfo = profiles.find(({ network }) => network == "LinkedIn");
 const linkedinURL = linkedinInfo?.url;
 
-const printInfo = [email, phone, linkedinURL].filter(Boolean).join(" • ")
+const printInfo = [email, phone, linkedinURL].filter(Boolean).join(" • ");
 ---
 
 <Section>
@@ -140,9 +140,7 @@ const printInfo = [email, phone, linkedinURL].filter(Boolean).join(" • ")
         transition: all 0.3s ease;
     }
 
-    footer a:hover{
+    footer a:hover {
         background: #eee;
-        
     }
-
 </style>
